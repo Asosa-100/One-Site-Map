@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+
+/* Global Styles */
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	font-family: 'Gill Sans MT', sans-serif;
+
+}
+
+/* HEADER SECTION */
+header {
+	margin-top: 16px;
+	margin-left: 15px;
+}
+header nav ul li {
+	display: inline; 
+}
+
+header nav ul .menu-icon {
+	float: right;
+}
+
+header nav ul li img {
+	width: 72px ;
+	height: 24px ;
+}
+
+header .menu-icon img {
+	width: 30px;
+	height: 16px;
+}
+
+/* MAIN SECTION */
+main {
+	margin-left: 5px;
+	margin-top: 27px;
+}
+main .profile {
+	/* margin-left: 84px; */
+	display: grid;
+	justify-content: center;
+}
+main .profile img {
+	width: 152px;
+	height: 154px;
+	border-radius: 100px;
+}
+
+main .heading h1 {
+	color: aliceblue;
+	font-size: 34px;
+	text-align: center;
+	line-height: 41pt;
+}
+
+main h1 span {
+	background-image: linear-gradient(  to right, rgb(221, 9, 221), rgb(255, 174, 0) );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+main .sub-heading h3 {
+	color: aliceblue;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 18pt;
+	margin-top: 20px;
+}
+
+/* THIS IS THE PORTFOLIO SECTION */
+.images-showcase {
+	margin-top: 50px;
+	margin-left: 5px;
+
+}
+section .images-showcase-header h3 {
+	font-size: 22pt;
+	color: aliceblue;
+	text-align: center;
+}
+
+section .images-showcase-container {
+	margin-top: 21px;
+	/* Important review the line of code below */
+	margin-left: 20px;
+	display: grid;
+	justify-content: center;
+
+}
+
+section .images-showcase-subcontainer-1 {
+	display: flex;
+	gap: 7px;
+}
+
+section .images-showcase-subcontainer-1 img {
+	width: 84px;
+	height: 147px;
+	border-radius: 30px;
+}
+
+section .images-showcase-subcontainer-1 img:hover {
+	opacity: 0.5;
+}
+
+section .images-showcase-subcontainer-2 {
+	display: flex;
+	gap: 7px;
+	margin-top: 10px;
+}
+
+section .images-showcase-subcontainer-2 img {
+	width: 84px;
+	height: 147px;
+	border-radius: 30px;
+}
+
+section .images-showcase-subcontainer-2 img:hover {
+	opacity: 0.5;
+}
+
+section .col-6 {
+	opacity: 0.3;
+}
+
+section .col-6-text {
+	color: aliceblue;
+	position: relative;
+	bottom: 50px;
+	left: 20px;
+}
+
+
+/* MAP SECTION */
+.map {
+	margin-top: 50px;
+	margin-left: 5px;
+}
+
+aside .map-container {
+	margin-top: 18px;
+	display: grid;
+	justify-content: center;
+	
+
+}
+aside .map-title h3 {
+	font-size: 26px;
+	color: aliceblue;
+	text-align: center;
+}
+
+aside .map-contents-1 img {
+	width: 268px;
+	height: 290px;
+}
+
+
+aside .map-contents-2 img {
+	width: 268px;
+	height: 245px;
+	position: relative;
+	bottom: 55px;
+	border-radius: 15px;
+
+}
+footer {
+	color: aliceblue;
+	text-align: center;
+}
